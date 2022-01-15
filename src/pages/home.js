@@ -7,7 +7,7 @@ const HomePage = {
             <div class="my-3">
                 <img src="https://picsum.photos/1024/400" />
             </div>
-            <div class="news">
+            <div class="news test">
                 <h2 class="text-2xl font-semibold my-4">Tin Tức Học Tập</h2>
                 <div class="grid grid-cols-3 gap-8">
                     ${data.map((post) => `
