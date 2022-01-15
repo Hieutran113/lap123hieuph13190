@@ -1,12 +1,17 @@
 {
     "routes": [
-           {
-               "src": "/",
-               "dest": "/"
-           },
-           {
-               "src": "/admin/news",
-               "dest": "/"
-           }
-     ]
-   }
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/news",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/dashboard",
+            "dest": "/"
+        }
+    ]
+}
+//    Can cai duong nao thi cho no vao day
