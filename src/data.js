@@ -20,6 +20,13 @@ const data = [
         desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
         id: "3",
     },
+    {
+        createdAt: "2022-01-11T03:36:13.571Z",
+        title: "Rufus Konopelski",
+        img: "http://placeimg.com/640/480/transport",
+        desc: "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        id: "3",
+    },
     
     
 ];
