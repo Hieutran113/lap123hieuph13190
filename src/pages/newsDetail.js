@@ -1,14 +1,15 @@
-import data from "../data";
+//import data from "../data";
 
 const NewsDetail = {
     render(id) {
-        const found = data.find((element) => element.id === id);
-
-        return `<div class="max-w-5xl mx-auto">
-            <h1>${found.title}</h1>
-            <img src="${found.img}" />
-            <p>${found.desc}</p>
-        </div>`;
+        return  fetch("https://620f3f97ec8b2ee28338b9c3.mockapi.io/news/"+id)
+    .then((Response) => Response.json())
+    .then((data) =>
+         `<div class="max-w-5xl mx-auto">
+            <h1>${data.title}</h1>
+            <img src="${data.img}" />
+            <p>${data.desc}</p>
+        </div>`);
     },
 };
 export default NewsDetail;
