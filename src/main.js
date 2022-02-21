@@ -17,10 +17,9 @@ import NewsDetail from "./pages/newsDetail";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
-const print = (content) => {
-    document.getElementById("header").innerHTML = Header.render();
-    document.getElementById("content").innerHTML = content;
-    document.getElementById("footer").innerHTML = Footer.render();
+const print = async (content) => {
+    
+    document.getElementById("content").innerHTML = await content;
 };
 
 router.on({
@@ -69,3 +68,7 @@ router.on({
 });
 
 router.resolve();
+
+// fetch("https://620f3f97ec8b2ee28338b9c3.mockapi.io/news")
+//     .then((Response) => Response.json())
+//     .then((data) =>console.log(data));
